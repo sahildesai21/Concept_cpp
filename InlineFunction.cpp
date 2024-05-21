@@ -5,7 +5,7 @@ only once the function will get complied and returns the value wherever function
 NOTE: 1. there will no change in the ouput.  
     2. make sure you don't use the inline fuction when there is huge block of code
        because it will use the chache memory.
-    3. use the inline function for short block of code. 
+    3. use the inline function for short/simple/basic block of code. 
 */
 #include<iostream>
 using namespace std;
