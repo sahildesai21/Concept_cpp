@@ -16,13 +16,13 @@ void swapbyCall_By_Value(int x,int y){     //Call by Value
 
 void swapbyCall_by_Ref_1(int *x,int *y){    //call by pointer method.
     int temp=*x;                            //here the memory location (address) of the variables is passed to the parameters in the function  
-    *x=*y;                   
+    *x=*y;                                  // We pass the address of arguments in the function call.
     *y=temp;
 }
 
-void swapbyCall_by_Ref_2(int &x,int &y){   //Call by reference method 1 (using primary refeance concept)
-    int temp=x;                             //here it will copy/pass the address of the value to the function 
-    x=y;
+void swapbyCall_by_Ref_2(int &x,int &y){   //Call by reference method. 
+    int temp=x;                             //here the memory location of the passed variable and parameter is the same 
+    x=y;                                   // We pass the arguments in the function call.
     y=temp;
 }
 int main()
