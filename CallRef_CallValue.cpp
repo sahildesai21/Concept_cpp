@@ -21,9 +21,9 @@ void swapbyCall_by_Ref_1(int *x,int *y){    //call by pointer method.
 }
 
 void swapbyCall_by_Ref_2(int &x,int &y){   //Call by reference method. 
-    int temp=x;                             //here the memory location of the passed variable and parameter is the same 
+    int temp=x;                            // Here the memory location of the passed variable and parameter is the same 
     x=y;                                   // We pass the arguments in the function call.
-    y=temp;
+    y=temp;                                // A pointer is a variable that holds a memory address.
 }
 int main()
 {
