@@ -15,12 +15,12 @@ void swapbyCall_By_Value(int x,int y){     //Call by Value
 }
 
 void swapbyCall_by_Ref_1(int *x,int *y){    //call by Refereance method 2 (using pointer concept)
-    int temp=*x;                            //here it will copy/pass the address of the value to the function 
+    int temp=*x;                            //here it will copy,pass and also store the address of the variable to the function  
     *x=*y;                   
     *y=temp;
 }
 
-void swapbyCall_by_Ref_2(int &x,int &y){   //Call by reference method 1 (using primeary refence concept)
+void swapbyCall_by_Ref_2(int &x,int &y){   //Call by reference method 1 (using primary refeance concept)
     int temp=x;                             //here it will copy/pass the address of the value to the function 
     x=y;
     y=temp;
