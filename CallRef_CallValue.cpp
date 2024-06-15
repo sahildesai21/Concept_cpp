@@ -1,3 +1,11 @@
+/*
+when to use pointer: 
+1. If pointer arithmetic or passing a NULL pointer is needed. For example, for arrays (Note that accessing an array is implemented using pointer arithmetic).
+2. To implement data structures like a linked list, a tree, etc. and their algorithms. This is so because, in order to point to different cells, we have to use the concept of pointers.  
+
+When to use refereance:
+In function parameters and return types.
+*/
 #include<iostream>
 using namespace std;
 void swapbyCall_By_Value(int x,int y){     //Call by Value
