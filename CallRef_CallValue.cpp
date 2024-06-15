@@ -6,7 +6,7 @@ void swapbyCall_By_Value(int x,int y){     //Call by Value
     y=temp;
 }
 
-void swapbyCall_by_Ref_1(int* x,int* y){    //call by Refereance method one 
+void swapbyCall_by_Ref_1(int *x,int *y){    //call by Refereance method one 
     int temp=*x;                            //here it will copy/pass the address of the value to the function 
     *x=*y;                   
     *y=temp;
